@@ -1,6 +1,6 @@
 {
-  "name": "remixicon-react",
-  "version": "1.0.0",
+  "name": "remixicon-react-redux",
+  "version": "1.0.1",
   "description": "Remix Icon for React",
   "keywords": [
     "remixicon",
@@ -10,17 +10,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bayesimpact/remixicon-react.git"
+    "url": "git+ssh://git@github.com/scouttyg/remixicon-react-redux"
   },
   "scripts": {
     "prepublishOnly": "cd .. && npm run build-react"
   },
-  "author": "Pascal Corpet <pascal@bayesimpact.org>",
+  "author": "Scott Goci <me@scottgoci.com>",
   "license": "(MIT AND OFL-1.1)",
   "bugs": {
-    "url": "https://github.com/bayesimpact/remixicon-react/issues"
+    "url": "https://github.com/scouttyg/remixicon-react-redux/issues"
   },
-  "homepage": "https://github.com/bayesimpact/remixicon-react",
+  "homepage": "https://github.com/scouttyg/remixicon-react-redux",
   "peerDependencies": {
     "react": ">=0.14.0"
   },

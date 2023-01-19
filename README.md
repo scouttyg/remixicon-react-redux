@@ -1,14 +1,16 @@
-# remixicon-react [![npm package](https://img.shields.io/npm/v/remixicon-react.svg?style=flat-square)](https://npmjs.org/package/remixicon-react) [![Remix Icons version](https://img.shields.io/badge/remixicon-v2.4.0-blue.svg?style=flat-square)](https://remixicon.com/) [![build status](https://img.shields.io/travis/bayesimpact/remixicon-react/master.svg?style=flat-square)](https://travis-ci.org/bayesimpact/remixicon-react)
+# remixicon-react-redux [![npm package](https://img.shields.io/npm/v/remixicon-react.svg?style=flat-square)](https://npmjs.org/package/remixicon-react-redux) [![Remix Icons version](https://img.shields.io/badge/remixicon-v2.4.0-blue.svg?style=flat-square)](https://remixicon.com/) [![build status](https://img.shields.io/travis/bayesimpact/remixicon-react/master.svg?style=flat-square)](https://travis-ci.org/bayesimpact/remixicon-react)
 [Remix Icons](https://remixicon.com/) for React packaged as single components
 
 This repo is based on the very good [mdi-react](https://github.com/levrik/mdi-react) package.
 
+Original fork from https://github.com/bayesimpact/remixicon-react to fix some small bugs and issues.
+
 ## Installation
 
 ```bash
-npm install remixicon-react
+npm install remixicon-react-redux
 # or if you use Yarn
-yarn add remixicon-react
+yarn add remixicon-react-redux
 ```
 
 ## Usage
@@ -19,8 +21,8 @@ The name translates to PascalCase followed by the suffix `Icon` in `remixicon-re
 For example the icons named `alert-line` and `alert-fill`:
 
 ```javascript
-import AlertLineIcon from 'remixicon-react/AlertLineIcon';
-import AlertFillIcon from 'remixicon-react/AlertFillIcon';
+import AlertLineIcon from 'remixicon-react-redux/AlertLineIcon';
+import AlertFillIcon from 'remixicon-react-redux/AlertFillIcon';
 
 const MyComponent = () => {
   return (
