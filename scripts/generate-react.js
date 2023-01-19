@@ -3,10 +3,14 @@ const generate = require('./generate');
 generate('react', component => `import React from 'react';
 
 const ${component.name} = ({ color = 'currentColor', size = 24, children, ...props }) => {
-  const className = 'remixicon-icon ' + (props.className || '');
+  let finalClassName = 'remixicon-icon'
+
+  if (props.className) {
+    finalClassName += ' ' + props.className
+  }
 
   return (
-    <svg {...props} className={className} width={size} height={size} fill={color} viewBox="0 0 24 24">
+    <svg {...props} className={className} data-icon-name="${component.name}" width={size} height={size} fill={color} viewBox="0 0 24 24">
       <path d="${component.svgPath}" />
     </svg>
   );
